@@ -3,199 +3,208 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CodExpress 2025 | Computer Society UNAL</title>
+  <title>Curso Completo de LaTeX | Computer Society UNAL</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
     rel="stylesheet"
   />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="background" aria-hidden="true">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="glow glow-3"></span>
+  </div>
   <header class="hero" id="inicio">
-    <div class="hero-glow" aria-hidden="true"></div>
-    <div class="container hero-layout">
+    <div class="container hero-grid">
       <div class="hero-copy">
-        <span class="tagline">Computer Society UNAL</span>
-        <h1>CodExpress 2025</h1>
-        <p class="subtitle">Una tarde, mil soluciones.</p>
-        <p class="description">
-          Competencia de programación organizada por Computer Society UNAL. Abierta a todos los niveles, desde principiantes
-          hasta avanzados.
+        <span class="tag">Computer Society UNAL presenta</span>
+        <h1>Curso Completo de <span class="accent">LaTeX</span></h1>
+        <p class="hero-subtitle">Aprende desde cero hasta nivel avanzado, con calma y detalle, en sesiones de 2 horas.</p>
+        <p class="hero-description">
+          Conviértete en experto en LaTeX, el estándar mundial para documentos científicos y técnicos. Desde la instalación
+          hasta la publicación final, este curso cubre todo lo que necesitas.
         </p>
-        <div class="hero-meta">
-          <div class="meta-card">
-            <span class="label">Fecha</span>
-            <strong>3 de octubre · 2:00 PM</strong>
-          </div>
-          <div class="meta-card">
-            <span class="label">Modalidad</span>
-            <strong>Híbrido (UNAL + Online)</strong>
-          </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#temario">Ver temario</a>
+          <a class="btn btn-secondary" href="#cta">Inscribirme</a>
         </div>
-        <a class="btn btn-primary" href="https://lu.ma/codexpress" target="_blank" rel="noopener">Inscribirme ahora</a>
       </div>
-      <div class="terminal-card" aria-hidden="true">
-        <div class="terminal-header">
+      <div class="hero-card" aria-hidden="true">
+        <div class="card-header">
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
-          <span class="title">codexpress.sh</span>
+          <span class="title">latex-course.sh</span>
         </div>
-        <div class="terminal-body">
-          <p>&gt; init event --year 2025</p>
-          <p>&gt; compiling_teams ████████░░</p>
-          <p>&gt; loading creativity ████████░░</p>
-          <p>&gt; status: ready_for_launch ✓</p>
+        <div class="card-body">
+          <p>&gt; install latex-suite</p>
+          <p>&gt; setup templates ✓</p>
+          <p>&gt; compile draft.tex</p>
+          <p>&gt; status: ready_to_publish</p>
         </div>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="section about" id="que-es">
+    <section class="section about" id="sobre">
+      <div class="container narrow">
+        <h2 class="section-title">Sobre el curso</h2>
+        <p>
+          Este curso cubre absolutamente todo lo que necesitas saber de LaTeX para escribir artículos, tesis, reportes y
+          presentaciones profesionales. No importa si nunca has usado LaTeX: avanzaremos paso a paso, desde lo más básico
+          hasta dominar herramientas avanzadas de personalización, referencias, gráficos y bibliografía. Al finalizar,
+          tendrás la capacidad de crear documentos académicos y técnicos de calidad internacional, usando buenas prácticas
+          que te ahorrarán tiempo y darán un acabado profesional a tu trabajo.
+        </p>
+      </div>
+    </section>
+
+    <section class="section syllabus" id="temario">
+      <div class="container">
+        <h2 class="section-title">Temario · Lo que aprenderás</h2>
+        <div class="modules-grid">
+          <article class="module-card">
+            <span class="icon">🧭</span>
+            <h3>Introducción</h3>
+            <p>Instalación de TeX Live/MiKTeX/Overleaf y estructura básica de un archivo .tex.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">✍️</span>
+            <h3>Texto y formato</h3>
+            <p>Estilos de párrafo, encabezados, tipografía, listas y organización por secciones.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">🗂️</span>
+            <h3>Tablas y figuras</h3>
+            <p>Creación de tablas, inserción de imágenes y control fino de tamaños y posiciones.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">➗</span>
+            <h3>Matemáticas básicas</h3>
+            <p>Símbolos esenciales, fracciones, raíces y notación de sumatorias.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">∫</span>
+            <h3>Matemáticas avanzadas</h3>
+            <p>Matrices, integrales, derivadas y entornos multilinea para expresiones complejas.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">🔖</span>
+            <h3>Referencias y bibliografía</h3>
+            <p>Uso de BibTeX/BibLaTeX, citas en formatos APA, IEEE, Chicago y más.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">🏛️</span>
+            <h3>Documentos largos</h3>
+            <p>Tesis, artículos y libros con índices, glosarios y numeración avanzada.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">🎤</span>
+            <h3>Presentaciones y gráficos</h3>
+            <p>Beamer para diapositivas, TikZ y PGFPlots para diagramas y visualizaciones.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">🧩</span>
+            <h3>Personalización y paquetes</h3>
+            <p>Ajustes de estilo, plantillas y paquetes recomendados para cada disciplina.</p>
+          </article>
+          <article class="module-card">
+            <span class="icon">🚀</span>
+            <h3>Proyecto final y publicación</h3>
+            <p>Creación de un documento completo y preparación para publicar en conferencias o repositorios.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section methodology" id="metodologia">
       <div class="container split">
         <div>
-          <h2>¿Qué es CodExpress?</h2>
+          <h2 class="section-title">Metodología</h2>
           <p>
-            CodExpress es una competencia de programación del capítulo estudiantil Computer Society UNAL. Su propósito es desafiar
-            las habilidades de los estudiantes y mostrar cómo los aprendizajes en matemáticas y física se relacionan con la
-            computación.
+            El curso está diseñado para que aprendas de manera progresiva y práctica. Cada sesión incluye ejemplos en vivo,
+            ejercicios para practicar y materiales de repaso.
           </p>
+          <div class="bullets">
+            <div class="bullet">Clases de 2 horas cada una.</div>
+            <div class="bullet">Explicación calmada, clara y con ejemplos en vivo.</div>
+            <div class="bullet">Enfoque en casos reales: tesis, artículos y presentaciones.</div>
+            <div class="bullet">Duración total: 20 horas (10 sesiones).</div>
+          </div>
+          <a class="btn btn-outline" href="#" aria-label="Descargar programa completo">Descargar programa completo</a>
         </div>
-        <div class="ascii-block" aria-hidden="true">
-          <pre>{  C O D E  }
-  &lt;/&gt;  &lt;/&gt;  &lt;/&gt;
- [::]  [::]  [::]
- 01000011 01001111
- 01000100 01000101
-          </pre>
-        </div>
-      </div>
-    </section>
-
-    <section class="section participation" id="participar">
-      <div class="container split">
-        <div>
-          <h2>¿Cómo participar?</h2>
-          <ol class="steps">
-            <li>Regístrate en el evento en Luma.</li>
-            <li>Realiza el pago de la inscripción.</li>
-            <li>Estudiantes UNAL: <strong>5.000 COP</strong></li>
-            <li>Externos: <strong>10.000 COP</strong></li>
-            <li>Prepárate para el 3 de octubre.</li>
-          </ol>
-        </div>
-        <div class="qr-panel">
-          <div class="qr" aria-hidden="true"></div>
-          <span>Escanéame para inscribirte</span>
+        <div class="method-card" aria-hidden="true">
+          <div class="method-content">
+            <span>Workflow</span>
+            <strong>Explorar → Practicar → Publicar</strong>
+            <p>Progreso guiado con feedback constante y repositorio de recursos.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section levels" id="niveles">
+    <section class="section audience" id="publico">
       <div class="container">
-        <h2>Niveles de competencia</h2>
-        <div class="level-grid">
-          <article class="level-card">
-            <h3>Nivel Básico</h3>
-            <p>Fundamentos y lógica de programación.</p>
-            <p class="detail">Simuladores matemáticos simples y lógica en Python. Relación con cursos: Fundamentos de matemáticas, Programación I.</p>
+        <h2 class="section-title">¿Para quién es este curso?</h2>
+        <div class="audience-grid">
+          <article>
+            <h3>Estudiantes universitarios</h3>
+            <p>Ideal si necesitas entregar tesis, artículos y reportes de alta calidad.</p>
           </article>
-          <article class="level-card">
-            <h3>Nivel Intermedio</h3>
-            <p>Estructuras de datos y POO inicial.</p>
-            <p class="detail">Proyectos en Python, Java o C++. Ejemplos: sistema de colas, agendas académicas.</p>
+          <article>
+            <h3>Investigadores</h3>
+            <p>Domina bibliografías, referencias y herramientas avanzadas para publicaciones internacionales.</p>
           </article>
-          <article class="level-card">
-            <h3>Nivel Avanzado Ligero</h3>
-            <p>Algoritmos y eficiencia.</p>
-            <p class="detail">Algoritmos de búsqueda (BFS, DFS), optimización en Python y C++. Relación con cursos: Algoritmos, Matemáticas discretas.</p>
+          <article>
+            <h3>Profesionales</h3>
+            <p>Perfecciona reportes técnicos y presentaciones con un acabado impecable.</p>
           </article>
-          <article class="level-card">
-            <h3>Nivel de Integración y Sistemas</h3>
-            <p>Aplicaciones completas y multidisciplinarias.</p>
-            <p class="detail">Apps con bases de datos y APIs (Python + JavaScript). Ejemplo: sistema CRUD, chat simple, integración de servicios.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section resources" id="recursos">
-      <div class="container">
-        <h2>Recursos de preparación</h2>
-        <div class="resource-grid">
-          <article class="resource-card">
-            <span class="resource-icon">▶</span>
-            <h3>Playlist de fundamentos en Python (UNAL)</h3>
-          </article>
-          <article class="resource-card">
-            <span class="resource-icon">🎥</span>
-            <h3>Programming for Everybody – Univ. of Michigan</h3>
-          </article>
-          <article class="resource-card">
-            <span class="resource-icon">💡</span>
-            <h3>Data Structures and Algorithms – UC San Diego</h3>
-          </article>
-          <article class="resource-card">
-            <span class="resource-icon">🗄️</span>
-            <h3>Bases de datos en SQL con Python – IBM</h3>
+          <article>
+            <h3>Cualquier persona entusiasta</h3>
+            <p>Si buscas escribir con LaTeX para lograr resultados profesionales, este curso es para ti.</p>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section benefits" id="beneficios">
-      <div class="container">
-        <h2>Compite, aprende y gana.</h2>
+      <div class="container narrow">
+        <h2 class="section-title">¿Por qué aprender LaTeX con nosotros?</h2>
         <ul class="benefit-list">
-          <li>🎓 Certificados de participación.</li>
-          <li>✨ Agendas, esferos y detalles del capítulo estudiantil.</li>
-          <li>💰 Premios en efectivo (hasta 50.000 COP).</li>
-          <li>🌍 Aporte a la financiación de proyectos estudiantiles en IA y computación cuántica.</li>
+          <li>🎓 Recibirás certificado de participación al finalizar.</li>
+          <li>📚 Acceso a materiales de repaso y ejemplos en Overleaf.</li>
+          <li>🤝 Espacios de networking con otros estudiantes e investigadores.</li>
+          <li>🚀 Dominio de una herramienta académica que abre puertas en investigación y publicaciones internacionales.</li>
         </ul>
-      </div>
-    </section>
-
-    <section class="section workshops" id="talleres">
-      <div class="container split">
-        <div>
-          <h2>Talleres relacionados</h2>
-          <p>
-            Antes y durante el evento realizaremos talleres prácticos sobre Python, algoritmos, APIs, inteligencia artificial y consejos
-            para ganar competencias de programación. Abiertos a todo público.
-          </p>
-        </div>
-        <div class="actions">
-          <a class="btn btn-outline" href="https://forms.gle/" target="_blank" rel="noopener">Quiero ser tallerista</a>
-        </div>
       </div>
     </section>
   </main>
 
   <section class="section cta-final" id="cta">
-    <div class="cta-glow" aria-hidden="true"></div>
     <div class="container">
-      <h2>¿Listo para el reto?</h2>
-      <p>CodExpress te espera este 3 de octubre. Inscríbete y demuestra tu talento.</p>
-      <a class="btn btn-primary" href="https://lu.ma/codexpress" target="_blank" rel="noopener">Inscribirme en Luma</a>
+      <h2>Empieza tu camino con LaTeX hoy.</h2>
+      <p>Una herramienta académica y profesional que te abrirá puertas.</p>
+      <a class="btn btn-primary" href="#">Inscribirme ahora</a>
     </div>
   </section>
 
   <footer class="footer">
-    <div class="container footer-layout">
-      <div class="brand">Computer Society UNAL</div>
-      <div class="contact">
-        <span>Contacto: <a href="mailto:computer_fbog@unal.edu.co">computer_fbog@unal.edu.co</a></span>
-        <div class="socials">
-          <a href="https://www.instagram.com/" aria-label="Instagram">IG</a>
-          <a href="https://www.facebook.com/" aria-label="Facebook">FB</a>
-          <a href="https://www.linkedin.com/" aria-label="LinkedIn">IN</a>
-        </div>
+    <div class="container footer-grid">
+      <div>
+        <strong>Curso organizado por Computer Society UNAL.</strong>
+        <p>Contacto: <a href="mailto:computer_fbog@unal.edu.co">computer_fbog@unal.edu.co</a></p>
       </div>
-      <small>Evento estudiantil sin ánimo de lucro. Los aportes recaudados apoyan la investigación y la participación en eventos internacionales.</small>
+      <div class="socials">
+        <a href="https://www.instagram.com/" aria-label="Instagram">IG</a>
+        <a href="https://www.facebook.com/" aria-label="Facebook">FB</a>
+        <a href="https://www.linkedin.com/" aria-label="LinkedIn">IN</a>
+      </div>
+      <small>© 2025 Computer Society UNAL. Todos los derechos reservados.</small>
     </div>
   </footer>
 </body>
