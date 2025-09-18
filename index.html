@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curso Completo de LaTeX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="glow glow-3"></div>
+  </div>
+  <header class="hero" id="inicio">
+    <div class="container">
+      <span class="eyebrow">Curso intensivo</span>
+      <h1>Curso Completo de LaTeX</h1>
+      <p class="subtitle">Aprende desde cero hasta nivel avanzado, con calma y detalle, en sesiones de 2 horas.</p>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="#temario">Ver temario</a>
+        <a class="btn btn-outline" href="#inscribirme">Inscribirme</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="sobre">
+      <div class="container narrow">
+        <h2>Sobre el curso</h2>
+        <p>Este curso cubre absolutamente todo lo que necesitas saber de LaTeX para escribir artículos, tesis, reportes y presentaciones profesionales. No importa si nunca has usado LaTeX: avanzaremos paso a paso, hasta llegar a nivel avanzado.</p>
+      </div>
+    </section>
+
+    <section class="section" id="temario">
+      <div class="container">
+        <h2>Lo que aprenderás</h2>
+        <div class="modules">
+          <article class="module">
+            <h3>Introducción</h3>
+            <p>Instalación, estructura básica de documentos y tu primer compilado.</p>
+          </article>
+          <article class="module">
+            <h3>Texto y formato</h3>
+            <p>Control absoluto del texto, tipografías, listas, secciones y estilos.</p>
+          </article>
+          <article class="module">
+            <h3>Tablas y figuras</h3>
+            <p>Inserción profesional de tablas, imágenes y flotantes con precisión.</p>
+          </article>
+          <article class="module">
+            <h3>Matemáticas básicas</h3>
+            <p>Notación matemática esencial con entornos in-line y display.</p>
+          </article>
+          <article class="module">
+            <h3>Matemáticas avanzadas</h3>
+            <p>Ecuaciones complejas, matrices, teoremas y paquetes especializados.</p>
+          </article>
+          <article class="module">
+            <h3>Referencias y bibliografía</h3>
+            <p>Manejo profesional de citas, BibTeX, BibLaTeX y estilos bibliográficos.</p>
+          </article>
+          <article class="module">
+            <h3>Documentos largos y profesionales</h3>
+            <p>Estructuración de tesis, reportes extensos y automatización de índices.</p>
+          </article>
+          <article class="module">
+            <h3>Presentaciones y gráficos</h3>
+            <p>Creación de diapositivas con Beamer y gráficos vectoriales con TikZ.</p>
+          </article>
+          <article class="module">
+            <h3>Personalización y paquetes útiles</h3>
+            <p>Ajustes finos, comandos personalizados y paquetes imprescindibles.</p>
+          </article>
+          <article class="module">
+            <h3>Proyecto final y publicación</h3>
+            <p>Desarrollo de un documento integral listo para compartir o publicar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="metodologia">
+      <div class="container narrow">
+        <h2>Metodología</h2>
+        <ul class="highlights">
+          <li><strong>Clases de 2 horas</strong> cada una.</li>
+          <li><strong>Explicación calmada</strong> y detallada.</li>
+          <li><strong>Ejemplos prácticos</strong> en vivo.</li>
+          <li><strong>Tiempo total:</strong> 20 horas (10 sesiones).</li>
+        </ul>
+        <span id="programa" class="anchor-target" aria-hidden="true"></span>
+        <a class="btn btn-primary" href="#programa">Descargar programa completo</a>
+      </div>
+    </section>
+
+    <section class="section" id="publico">
+      <div class="container">
+        <h2>Público objetivo</h2>
+        <div class="audience">
+          <div class="audience-item">Estudiantes universitarios.</div>
+          <div class="audience-item">Investigadores.</div>
+          <div class="audience-item">Profesionales que necesiten escribir artículos, tesis o reportes.</div>
+          <div class="audience-item">Personas que quieran dominar LaTeX para presentaciones y gráficos técnicos.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="section cta-final" id="inscribirme">
+    <div class="container">
+      <h2>Empieza tu camino con LaTeX hoy.</h2>
+      <p>Una herramienta académica y profesional que te abrirá puertas.</p>
+      <a class="btn btn-primary btn-large" href="#">Inscribirme ahora</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Curso Completo de LaTeX. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
